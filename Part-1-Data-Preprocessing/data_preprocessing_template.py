@@ -22,6 +22,10 @@ from sklearn.compose import ColumnTransformer
 labelencoder_X = LabelEncoder()
 X[:, 0] = labelencoder_X.fit_transform(X[:, 0])
 
-# Encoding the Independent Variable
+# Encoding the Independent X Variable
 ct = ColumnTransformer([('encoder', OneHotEncoder(), [0])], remainder='passthrough')
 X = np.array(ct.fit_transform(X), dtype=np.float)
+
+# Encoding Dependable Y data
+labelencoder_y = LabelEncoder()
+y = LabelEncoder().fit_transform(y)
