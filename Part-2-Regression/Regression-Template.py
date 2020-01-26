@@ -30,3 +30,12 @@ regressor = SVR() # Then we'll create regressor object
 
 # Predicting a new result
 y_pred = regressor.predict(6.5)
+
+# Visualising the Regression results
+plt.scatter(X, y, color = 'red')
+plt.plot(X, regressor.predict(X), color = 'blue')
+plt.title('Truth or Bluff (Regression Model)')
+plt.xlabel('Position level')
+plt.ylabel('Salary')
+plt.show()
+
