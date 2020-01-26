@@ -28,3 +28,5 @@ from sklearn.svm import SVR # suppose we're working with SVR
 regressor = SVR() # Then we'll create regressor object
 
 
+# Predicting a new result
+y_pred = regressor.predict(6.5)
