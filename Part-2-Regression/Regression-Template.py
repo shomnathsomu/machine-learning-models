@@ -22,3 +22,9 @@ X_test = sc_X.transform(X_test)
 sc_y = StandardScaler()
 y_train = sc_y.fit_transform(y_train)"""
 
+# Fitting the Regression Model to the dataset
+# Create your regressor here
+from sklearn.svm import SVR # suppose we're working with SVR
+regressor = SVR() # Then we'll create regressor object
+
+
