@@ -27,3 +27,5 @@ from sklearn.tree import DecisionTreeRegressor
 regressor = DecisionTreeRegressor(random_state = 0)
 regressor.fit(X, y)
 
+# Predicting a new result
+y_pred = regressor.predict([[6.5]])
