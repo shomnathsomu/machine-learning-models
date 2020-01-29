@@ -26,3 +26,6 @@ y_train = sc_y.fit_transform(y_train)"""
 from sklearn.ensemble import RandomForestRegressor
 regressor = RandomForestRegressor(n_estimators = 300, random_state = 0)
 regressor.fit(X, y)
+
+# Predicting a new result
+y_pred = regressor.predict([[6.5]])
