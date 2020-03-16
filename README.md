@@ -13,9 +13,9 @@ Polynomial Regression
 
 Support Vector for Regression (SVR)
 
-Decision Tree Classification
+Decision Tree Regression
 
-Random Forest Classification
+Random Forest Regression
 
 #### 3. Classification
 Logistic Regression
@@ -31,3 +31,18 @@ Naive Bayes
 Decision Tree Classification
 
 Random Forest Classification
+
+#### 4. Clustering
+Hierarchical Clustering
+
+K-means Clustering
+
+#### 5. Association Rule Learning
+Apriori
+
+Eclat
+
+#### 6. Reinforcement Learning
+Upper Confidence Bound
+
+Thompson Sampling
