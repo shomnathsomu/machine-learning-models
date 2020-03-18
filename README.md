@@ -46,3 +46,5 @@ Eclat
 Upper Confidence Bound
 
 Thompson Sampling
+
+#### 7. Natural Language Processing
