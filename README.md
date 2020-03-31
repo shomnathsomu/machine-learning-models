@@ -48,3 +48,8 @@ Upper Confidence Bound
 Thompson Sampling
 
 #### 7. Natural Language Processing
+
+#### 8. Deep Learning
+Artificial-Neural-Networks-(ANN)
+
+Convolutional-Neural-Networks-(CNN)
