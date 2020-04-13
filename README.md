@@ -53,3 +53,15 @@ Thompson Sampling
 Artificial-Neural-Networks-(ANN)
 
 Convolutional-Neural-Networks-(CNN)
+
+#### 9. Dimensionality-Reduction
+Kernel-PCA
+
+Linear-Discriminant-Analysis
+
+Principal-Component-Analysis
+
+#### 10. Model-Selection-and-Boosting
+Model Selection
+
+XGBoost
